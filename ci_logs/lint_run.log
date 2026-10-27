@@ -1,0 +1,356 @@
+Ansible Lint	Set up job	﻿2026-10-27T06:43:02.8104511Z Current runner version: '2.338.0'
+Ansible Lint	Set up job	2026-10-27T06:43:02.8142637Z ##[group]Runner Image Provisioner
+Ansible Lint	Set up job	2026-10-27T06:43:02.8143992Z Hosted Compute Agent
+Ansible Lint	Set up job	2026-10-27T06:43:02.8144945Z Version: 20261021.618
+Ansible Lint	Set up job	2026-10-27T06:43:02.8146127Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+Ansible Lint	Set up job	2026-10-27T06:43:02.8147370Z Build Date: 2026-10-21T00:45:21Z
+Ansible Lint	Set up job	2026-10-27T06:43:02.8148827Z Worker ID: {fc21c8d5-17bd-4c48-b318-4e9e8975555c}
+Ansible Lint	Set up job	2026-10-27T06:43:02.8150035Z Region: westus2
+Ansible Lint	Set up job	2026-10-27T06:43:02.8150931Z Cloud: Azure
+Ansible Lint	Set up job	2026-10-27T06:43:02.8151938Z ##[endgroup]
+Ansible Lint	Set up job	2026-10-27T06:43:02.8154303Z ##[group]Operating System
+Ansible Lint	Set up job	2026-10-27T06:43:02.8155388Z Ubuntu
+Ansible Lint	Set up job	2026-10-27T06:43:02.8156238Z 24.04.5
+Ansible Lint	Set up job	2026-10-27T06:43:02.8157041Z LTS
+Ansible Lint	Set up job	2026-10-27T06:43:02.8157924Z ##[endgroup]
+Ansible Lint	Set up job	2026-10-27T06:43:02.8159151Z ##[group]Runner Image
+Ansible Lint	Set up job	2026-10-27T06:43:02.8160110Z Image: ubuntu-24.04
+Ansible Lint	Set up job	2026-10-27T06:43:02.8161170Z Version: 20261012.334.1
+Ansible Lint	Set up job	2026-10-27T06:43:02.8162958Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+Ansible Lint	Set up job	2026-10-27T06:43:02.8165958Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+Ansible Lint	Set up job	2026-10-27T06:43:02.8167674Z ##[endgroup]
+Ansible Lint	Set up job	2026-10-27T06:43:02.8170120Z ##[group]GITHUB_TOKEN Permissions
+Ansible Lint	Set up job	2026-10-27T06:43:02.8172707Z Contents: read
+Ansible Lint	Set up job	2026-10-27T06:43:02.8173941Z Metadata: read
+Ansible Lint	Set up job	2026-10-27T06:43:02.8174837Z Packages: read
+Ansible Lint	Set up job	2026-10-27T06:43:02.8175844Z ##[endgroup]
+Ansible Lint	Set up job	2026-10-27T06:43:02.8179270Z Secret source: Actions
+Ansible Lint	Set up job	2026-10-27T06:43:02.8180939Z Cache mode: write
+Ansible Lint	Set up job	2026-10-27T06:43:02.8183079Z Prepare workflow directory
+Ansible Lint	Set up job	2026-10-27T06:43:02.8704548Z Prepare all required actions
+Ansible Lint	Set up job	2026-10-27T06:43:02.8778612Z Getting action download info
+Ansible Lint	Set up job	2026-10-27T06:43:03.2200841Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Ansible Lint	Set up job	2026-10-27T06:43:03.3323123Z Download action repository 'ansible/ansible-lint@main' (SHA:547e1217897a078bab2d4e46a2cd43c9ef4b88a2)
+Ansible Lint	Set up job	2026-10-27T06:43:04.0419607Z Getting action download info
+Ansible Lint	Set up job	2026-10-27T06:43:04.1691897Z Download action repository 'astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d' (SHA:20cfd1bf945f4377ade1205e4dbc17946fc9a30d)
+Ansible Lint	Set up job	2026-10-27T06:43:04.4662681Z Complete job name: Ansible Lint
+Ansible Lint	Check out repository	﻿2026-10-27T06:43:04.5687891Z ##[group]Run actions/checkout@v4
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5689735Z with:
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5690837Z   repository: Andreykosberg/devops-lab06-ansible-roles-ci
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5701065Z   token: ***
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5701977Z   ssh-strict: true
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5702886Z   ssh-user: git
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5703808Z   persist-credentials: true
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5704823Z   clean: true
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5705775Z   sparse-checkout-cone-mode: true
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5706866Z   fetch-depth: 1
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5707768Z   fetch-tags: false
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5708995Z   show-progress: true
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5709963Z   lfs: false
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5710846Z   submodules: false
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5711787Z   set-safe-directory: true
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5712838Z   allow-unsafe-pr-checkout: false
+Ansible Lint	Check out repository	2026-10-27T06:43:04.5714278Z ##[endgroup]
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8384671Z Syncing repository: Andreykosberg/devops-lab06-ansible-roles-ci
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8390160Z ##[group]Getting Git version info
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8393705Z Working directory is '/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci'
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8398727Z [command]/usr/bin/git version
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8443391Z git version 2.55.0
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8471173Z ##[endgroup]
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8504540Z Temporarily overriding HOME='/home/runner/work/_temp/ded66be3-dd12-4459-807d-068ab123d2d3' before making global git config changes
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8509568Z Adding repository directory to the temporary git global config as a safe directory
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8515208Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8589698Z Deleting the contents of '/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci'
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8595667Z ##[group]Initializing the repository
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8609330Z [command]/usr/bin/git init /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8729403Z hint: Using 'master' as the name for the initial branch. This default branch name
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8845093Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8849097Z hint: to use in all of your new repositories, which will suppress this warning,
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8852038Z hint: call:
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8853656Z hint:
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8855914Z hint: 	git config --global init.defaultBranch <name>
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8858525Z hint:
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8860854Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8864527Z hint: 'development'. The just-created branch can be renamed via this command:
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8867408Z hint:
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8869671Z hint: 	git branch -m <name>
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8871511Z hint:
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8873847Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8879101Z Initialized empty Git repository in /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/.git/
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8887370Z [command]/usr/bin/git remote add origin https://github.com/Andreykosberg/devops-lab06-ansible-roles-ci
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8895369Z ##[endgroup]
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8898962Z ##[group]Disabling automatic garbage collection
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8901419Z [command]/usr/bin/git config --local gc.auto 0
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8906903Z ##[endgroup]
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8909678Z ##[group]Setting up auth
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8912505Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Ansible Lint	Check out repository	2026-10-27T06:43:04.8961324Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Ansible Lint	Check out repository	2026-10-27T06:43:04.9428973Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Ansible Lint	Check out repository	2026-10-27T06:43:04.9473944Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Ansible Lint	Check out repository	2026-10-27T06:43:04.9713877Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Ansible Lint	Check out repository	2026-10-27T06:43:04.9751838Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Ansible Lint	Check out repository	2026-10-27T06:43:04.9983382Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Ansible Lint	Check out repository	2026-10-27T06:43:05.0026485Z ##[endgroup]
+Ansible Lint	Check out repository	2026-10-27T06:43:05.0028503Z ##[group]Fetching the repository
+Ansible Lint	Check out repository	2026-10-27T06:43:05.0039833Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +be5cad650fa659b029a3f1e731fe138d7f3e47bc:refs/remotes/origin/master
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3270318Z From https://github.com/Andreykosberg/devops-lab06-ansible-roles-ci
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3273511Z  * [new ref]         be5cad650fa659b029a3f1e731fe138d7f3e47bc -> origin/master
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3278781Z ##[endgroup]
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3280368Z ##[group]Determining the checkout info
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3296331Z ##[endgroup]
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3297812Z [command]/usr/bin/git sparse-checkout disable
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3345496Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3381014Z ##[group]Checking out the ref
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3392565Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3454721Z Reset branch 'master'
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3461757Z branch 'master' set up to track 'origin/master'.
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3467846Z ##[endgroup]
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3515571Z [command]/usr/bin/git log -1 --format=%H
+Ansible Lint	Check out repository	2026-10-27T06:43:05.3542237Z be5cad650fa659b029a3f1e731fe138d7f3e47bc
+Ansible Lint	Run ansible-lint	﻿2026-10-27T06:43:05.4035366Z ##[group]Run ansible/ansible-lint@main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4036532Z with:
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4037323Z   setup_python: true
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4038414Z   python_version: 3.14
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4039337Z   expected_return_code: 0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4040263Z ##[endgroup]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4114304Z ##[start-action display=Process inputs;id=__ansible_ansible-lint.inputs]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4216228Z ##[group]Run if [[ -n "" ]]; then
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4217376Z ^[[36;1mif [[ -n "" ]]; then^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4218950Z ^[[36;1m  echo "working_directory=" >> $GITHUB_OUTPUT^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4220147Z ^[[36;1melse^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4222046Z ^[[36;1m  echo "working_directory=/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci" >> $GITHUB_OUTPUT^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4224170Z ^[[36;1mfi^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4672851Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4674232Z ##[endgroup]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4835061Z ##[end-action id=__ansible_ansible-lint.inputs;outcome=success;conclusion=success;duration_ms=71]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4850907Z ##[start-action display=Determine github action ref;id=__ansible_ansible-lint.__run]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4892808Z ##[group]Run action_ref="${OVERRIDE_VER:-${OLD_REF:-${GITHUB_ACTION_REF_DISAMBIGUATED:-main}}}"
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4894966Z ^[[36;1maction_ref="${OVERRIDE_VER:-${OLD_REF:-${GITHUB_ACTION_REF_DISAMBIGUATED:-main}}}"^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4896590Z ^[[36;1mif [[ -n "${OLD_REF}" ]]; then^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4899394Z ^[[36;1m  echo "::warning::Using input 'gh_action_ref': Loading ansible-lint version ${action_ref}. This input is deprecated; please use 'override_version' instead."^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4901788Z ^[[36;1melse^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4902764Z ^[[36;1m  echo "Using ansible-lint ref: $action_ref"^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4903920Z ^[[36;1mfi^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4904927Z ^[[36;1mecho "ACTION_REF=${action_ref}" >> "$GITHUB_ENV"^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4970660Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4971988Z env:
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4972750Z   OVERRIDE_VER: 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4973566Z   OLD_REF: 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4974402Z   GITHUB_ACTION_REF_DISAMBIGUATED: main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.4975445Z ##[endgroup]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5071513Z Using ansible-lint ref: main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5089153Z ##[end-action id=__ansible_ansible-lint.__run;outcome=success;conclusion=success;duration_ms=23]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5099201Z ##[start-action display=Generate .git/ansible-lint-requirements.txt;id=__ansible_ansible-lint.get_reqs]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5140095Z ##[group]Run reqs_file=$(git rev-parse --show-toplevel)/.git/ansible-lint-requirements.txt
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5142219Z ^[[36;1mreqs_file=$(git rev-parse --show-toplevel)/.git/ansible-lint-requirements.txt^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5143919Z ^[[36;1mecho "reqs_file=$reqs_file" >> $GITHUB_OUTPUT^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5146313Z ^[[36;1mwget --output-document=$reqs_file https://raw.githubusercontent.com/ansible/ansible-lint/$GH_ACTION_REF/.config/requirements-lock.txt^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5213416Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5214655Z env:
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5215417Z   ACTION_REF: main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5216242Z   GH_ACTION_REF: main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5217090Z ##[endgroup]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5365138Z --2026-10-27 06:43:05--  https://raw.githubusercontent.com/ansible/ansible-lint/main/.config/requirements-lock.txt
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5600932Z Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.5658301Z Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6644606Z HTTP request sent, awaiting response... 200 OK
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6646586Z Length: 1904 (1.9K) [text/plain]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6650390Z Saving to: ‘/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/.git/ansible-lint-requirements.txt’
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6652490Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6652955Z      0K .                                                     100% 34.0M=0s
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6653760Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6656734Z 2026-10-27 06:43:05 (34.0 MB/s) - ‘/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/.git/ansible-lint-requirements.txt’ saved [1904/1904]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6660729Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6673798Z ##[end-action id=__ansible_ansible-lint.get_reqs;outcome=success;conclusion=success;duration_ms=157]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6680348Z ##[start-action display=Set up uv;id=__ansible_ansible-lint.__astral-sh_setup-uv]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6902709Z ##[group]Run astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6904051Z with:
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6904740Z   enable-cache: true
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6905523Z   python-version: 3.14
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6906416Z   activate-environment: false
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6907289Z   no-project: false
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6909093Z   working-directory: /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6919175Z   github-token: ***
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6921083Z   cache-dependency-glob: **/*requirements*.txt
+Ansible Lint	Run ansible-lint	**/*requirements*.in
+Ansible Lint	Run ansible-lint	**/*constraints*.txt
+Ansible Lint	Run ansible-lint	**/*constraints*.in
+Ansible Lint	Run ansible-lint	**/pyproject.toml
+Ansible Lint	Run ansible-lint	**/uv.lock
+Ansible Lint	Run ansible-lint	**/*.py.lock
+Ansible Lint	Run ansible-lint	
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6923197Z   restore-cache: true
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6923975Z   save-cache: true
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6924719Z   prune-cache: false
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6925483Z   cache-python: false
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6926308Z   ignore-nothing-to-cache: false
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6927235Z   ignore-empty-workdir: false
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6928423Z   download-from-astral-mirror: true
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6929399Z   add-problem-matchers: true
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6930243Z   quiet: false
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6930994Z   resolution-strategy: highest
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6931843Z env:
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6932503Z   ACTION_REF: main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.6933233Z ##[endgroup]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.8898512Z Trying to find version for uv in: /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/uv.toml
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.8904450Z Could not find file: /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/uv.toml
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.8910023Z Trying to find version for uv in: /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/pyproject.toml
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.8915388Z Could not find file: /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/pyproject.toml
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.8919679Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.8924818Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:05.9739339Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.13.6/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.1432884Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/16e328f4-57b0-458a-a52a-8d9fdb954435 -f /home/runner/work/_temp/590e80ec-b7ba-45e4-a702-0145527aa576
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4426482Z Added /home/runner/.local/bin to the path
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4430549Z Added /opt/hostedtoolcache/uv/0.13.6/x86_64 to the path
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4432308Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4433689Z Added /home/runner/work/_temp/uv-python-dir to the path
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4434401Z Set UV_PYTHON to 3.14
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4455792Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4456407Z Successfully installed uv version 0.13.6
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4459653Z Searching files using cache dependency glob: /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/**/*requirements*.txt,/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/**/*requirements*.in,/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/**/*constraints*.txt,/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/**/*constraints*.in,/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/**/pyproject.toml,/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/**/uv.lock,/home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/**/*.py.lock
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4542703Z /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci/.git/ansible-lint-requirements.txt
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4799470Z Found 1 files to hash.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.4874250Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14-31280bda492edcbf9f78a7663202971f55a501cc01e01ce4414cdd4631db8988
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.7038547Z No GitHub Actions cache found for key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14-31280bda492edcbf9f78a7663202971f55a501cc01e01ce4414cdd4631db8988
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8199973Z ##[end-action id=__ansible_ansible-lint.__astral-sh_setup-uv;outcome=success;conclusion=success;duration_ms=1151]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8206219Z ##[start-action display=Install ansible-lint;id=__ansible_ansible-lint.__run_2]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8232275Z ##[group]Run if [[ "true" == "true" ]]; then
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8232666Z ^[[36;1mif [[ "true" == "true" ]]; then^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8233182Z ^[[36;1m  # --with-executables-from requires uv >= 0.8.5 (provided by setup-uv latest above)^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8234161Z ^[[36;1m  uv tool install --python 3.14 --with-executables-from ansible-core "ansible-lint[lock] @ git+https://github.com/ansible/ansible-lint@$GH_ACTION_REF"^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8234927Z ^[[36;1melse^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8235225Z ^[[36;1m  echo "setup_python is false, using pip"^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8235806Z ^[[36;1m  pip install "ansible-lint[lock] @ git+https://github.com/ansible/ansible-lint@$GH_ACTION_REF"^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8236353Z ^[[36;1mfi^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8236621Z ^[[36;1mansible-lint --version^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8306915Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8307331Z env:
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8307581Z   ACTION_REF: main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8308137Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8308617Z   UV_PYTHON: 3.14
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8308930Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8309301Z   GH_ACTION_REF: main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:06.8309565Z ##[endgroup]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:07.0257359Z Downloading cpython-3.14.10-linux-x86_64-gnu (download) (35.1MiB)
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:07.6413301Z  Downloaded cpython-3.14.10-linux-x86_64-gnu (download)
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:08.0350873Z    Updating https://github.com/ansible/ansible-lint (main)
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:09.3148705Z     Updated https://github.com/ansible/ansible-lint (547e1217897a078bab2d4e46a2cd43c9ef4b88a2)
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.1137494Z Resolved 29 packages in 4.29s
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.1293778Z    Building ansible-lint @ git+https://github.com/ansible/ansible-lint@547e1217897a078bab2d4e46a2cd43c9ef4b88a2
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.1565011Z Downloading cryptography (4.5MiB)
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.1567315Z Downloading black (2.0MiB)
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.1572948Z Downloading ansible-core (2.3MiB)
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.2494688Z  Downloaded black
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.2761944Z  Downloaded cryptography
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.2907380Z  Downloaded ansible-core
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.8578640Z       Built ansible-lint @ git+https://github.com/ansible/ansible-lint@547e1217897a078bab2d4e46a2cd43c9ef4b88a2
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.8681452Z Prepared 28 packages in 752ms
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9031287Z Installed 29 packages in 34ms
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9032075Z  + ansible-compat==26.10.0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9032642Z  + ansible-core==2.21.5
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9033338Z  + ansible-lint==26.10.2.dev2 (from git+https://github.com/ansible/ansible-lint@547e1217897a078bab2d4e46a2cd43c9ef4b88a2)
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9034496Z  + attrs==26.1.0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9035280Z  + black==26.10.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9035684Z  + bracex==3.2
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9035997Z  + cffi==2.1.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9036349Z  + click==8.5.0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9036708Z  + cryptography==50.0.2
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9037119Z  + distro==1.9.0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9037464Z  + filelock==4.2.4
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9037803Z  + jinja2==3.1.6
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9038368Z  + jsonschema==4.26.0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9038792Z  + jsonschema-specifications==2025.9.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9039286Z  + markupsafe==3.0.4
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9039783Z  + mypy-extensions==1.1.0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9040246Z  + packaging==26.3
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9040610Z  + pathspec==1.1.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9040973Z  + platformdirs==4.13.5
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9041355Z  + pycparser==3.12
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9041717Z  + pytokens==0.4.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9042064Z  + pyyaml==6.0.3
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9042457Z  + referencing==0.37.0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9042858Z  + resolvelib==1.2.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9043220Z  + rpds-py==2026.9.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9043606Z  + ruamel-yaml==0.19.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9043976Z  + subprocess-tee==0.4.2
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9044361Z  + wcmatch==11.2
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9044689Z  + yamllint==1.38.0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9045399Z warning: The package `ansible-lint @ git+https://github.com/ansible/ansible-lint@547e1217897a078bab2d4e46a2cd43c9ef4b88a2` does not have an extra named `lock`
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9071777Z Installed 10 executables from `ansible-core`: ansible, ansible-config, ansible-console, ansible-doc, ansible-galaxy, ansible-inventory, ansible-playbook, ansible-pull, ansible-test, ansible-vault
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:12.9072955Z Installed 1 executable: ansible-lint
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.0345307Z ansible-lint 26.10.2.dev2 using ansible-core:2.21.5 ansible-compat:26.10.0 ruamel-yaml:0.19.1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1046988Z ##[end-action id=__ansible_ansible-lint.__run_2;outcome=success;conclusion=success;duration_ms=7283]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1051138Z ##[start-action display=Install role and collection dependencies from requirements file;id=__ansible_ansible-lint.__run_3]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1062825Z ##[end-action id=__ansible_ansible-lint.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1064872Z ##[start-action display=Run ansible-lint;id=__ansible_ansible-lint.__run_4]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1086193Z ##[group]Run exit_code=0
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1086460Z ^[[36;1mexit_code=0^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1086672Z ^[[36;1mexpected_exit_code=0^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1086924Z ^[[36;1mansible-lint  || exit_code=$?^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1087490Z ^[[36;1mif [ "$exit_code" != "$expected_exit_code" ]; then echo "Command failed: got '$exit_code', expected '$expected_exit_code'"; exit 1; fi^[[0m
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1152644Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1152988Z env:
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1153181Z   ACTION_REF: main
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1153491Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1153835Z   UV_PYTHON: 3.14
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1154091Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:14.1154389Z ##[endgroup]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4474549Z WARNING  Listing 4 violation(s) that are fatal
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4501668Z ##[error]'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4503805Z ##[error]Role name nginx-vhosts does not match ``^[a-z][a-z0-9_]*$`` pattern.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4504819Z ##[error]All names should start with an uppercase letter.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4505682Z ##[error]Package installs should not use latest.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4506154Z Read documentation for instructions on how to ignore specific rule violations.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4506510Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4506613Z # Rule Violation Summary
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4506772Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4507267Z   1 role-name profile:basic tags:deprecations,metadata
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4507619Z   1 schema profile:basic tags:core
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4507900Z   1 name profile:basic tags:idiom
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4508678Z   1 package-latest profile:basic tags:idempotency
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4508928Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4509353Z Failed: 4 failure(s), 0 warning(s) in 8 files processed of 10 encountered. Last profile that met the validation criteria was 'min'.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4510389Z schema[playbook]: 'become_method' must be one of the currently available values: ansible.builtin.runas, ansible.builtin.su, ansible.builtin.sudo
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4511268Z playbook.yml:6:18  Returned errors will not include exact line numbers, but they will mention
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4511835Z the schema name being used as a tag, like ``schema[playbook]``,
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4512195Z ``schema[tasks]``.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4512334Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4512524Z This rule is not skippable and stops further processing of the file.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4512830Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4512985Z If incorrect schema was picked, you might want to either:
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4513243Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4513459Z * move the file to standard location, so its file is detected correctly.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4513965Z * use ``kinds:`` option in linter config to help it pick correct file type.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4514344Z [/]
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4514445Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4514673Z role-name: Role name nginx-vhosts does not match ``^[a-z][a-z0-9_]*$`` pattern.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4515089Z roles/nginx-vhosts:1
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4515231Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4515415Z name[casing]: All names should start with an uppercase letter.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4515885Z roles/nginx-vhosts/handlers/main.yml:2:9 Task/Handler: restart nginx
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4516185Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4516339Z package-latest: Package installs should not use latest.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4516761Z roles/nginx-vhosts/tasks/main.yml:2 Task/Handler: Install nginx
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.4517043Z 
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.5517791Z Command failed: got '2', expected '0'
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.5522867Z ##[error]Process completed with exit code 1.
+Ansible Lint	Run ansible-lint	2026-10-27T06:43:17.5532410Z ##[end-action id=__ansible_ansible-lint.__run_4;outcome=failure;conclusion=failure;duration_ms=3446]
+Ansible Lint	Post Run ansible-lint	﻿2026-10-27T06:43:17.5717905Z Post job cleanup.
+Ansible Lint	Post Run ansible-lint	2026-10-27T06:43:17.5721801Z ##[start-action display=Set up uv;id=__47c5f8a7-f70e-4a0a-8024-31d176e94e27.__astral-sh_setup-uv]
+Ansible Lint	Post Run ansible-lint	2026-10-27T06:43:17.5724082Z ##[end-action id=__47c5f8a7-f70e-4a0a-8024-31d176e94e27.__astral-sh_setup-uv;outcome=skipped;conclusion=skipped;duration_ms=0]
+Ansible Lint	Post Check out repository	﻿2026-10-27T06:43:17.5812405Z Post job cleanup.
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.6678522Z [command]/usr/bin/git version
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.6722700Z git version 2.55.0
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.6765733Z Temporarily overriding HOME='/home/runner/work/_temp/7f5c8e92-53e7-4ff3-a917-26eb991f2e57' before making global git config changes
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.6767140Z Adding repository directory to the temporary git global config as a safe directory
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.6772728Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.6817156Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.6867396Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.7133674Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.7161964Z http.https://github.com/.extraheader
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.7174257Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.7220917Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.7489129Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Ansible Lint	Post Check out repository	2026-10-27T06:43:17.7544511Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Ansible Lint	Complete job	﻿2026-10-27T06:43:17.7932434Z Cleaning up orphan processes
+Ansible Lint	Complete job	2026-10-27T06:43:17.8322453Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

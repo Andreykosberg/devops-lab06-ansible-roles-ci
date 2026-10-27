@@ -1,0 +1,52 @@
+DevOps-Course-first-job	Set up job	﻿2026-10-27T06:43:02.0404290Z Current runner version: '2.338.0'
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0432163Z ##[group]Runner Image Provisioner
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0433646Z Hosted Compute Agent
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0434816Z Version: 20261021.618
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0436072Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0437394Z Build Date: 2026-10-21T00:45:21Z
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0438679Z Worker ID: {c6ae1712-1c1c-467c-84ea-cd7dc3d02864}
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0440111Z Region: southcentralus
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0441305Z Cloud: Azure
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0442638Z ##[endgroup]
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0445412Z ##[group]Operating System
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0446626Z Ubuntu
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0447611Z 24.04.5
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0448559Z LTS
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0449674Z ##[endgroup]
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0450622Z ##[group]Runner Image
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0452173Z Image: ubuntu-24.04
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0453283Z Version: 20261012.334.1
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0455346Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0458302Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0460186Z ##[endgroup]
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0462617Z ##[group]GITHUB_TOKEN Permissions
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0465691Z Contents: read
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0466712Z Metadata: read
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0467735Z Packages: read
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0468737Z ##[endgroup]
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0471643Z Secret source: Actions
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0473752Z Cache mode: write
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0475586Z Prepare workflow directory
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0846847Z Prepare all required actions
+DevOps-Course-first-job	Set up job	2026-10-27T06:43:02.0962776Z Complete job name: DevOps-Course-first-job
+DevOps-Course-first-job	Say hello	﻿2026-10-27T06:43:02.2380756Z ##[group]Run echo "I run my first Github Actions"
+DevOps-Course-first-job	Say hello	2026-10-27T06:43:02.2382018Z ^[[36;1mecho "I run my first Github Actions"^[[0m
+DevOps-Course-first-job	Say hello	2026-10-27T06:43:02.3636121Z shell: /usr/bin/bash -e {0}
+DevOps-Course-first-job	Say hello	2026-10-27T06:43:02.3637207Z ##[endgroup]
+DevOps-Course-first-job	Say hello	2026-10-27T06:43:02.3854791Z I run my first Github Actions
+DevOps-Course-first-job	Show uptime	﻿2026-10-27T06:43:02.4034451Z ##[group]Run uptime
+DevOps-Course-first-job	Show uptime	2026-10-27T06:43:02.4034976Z ^[[36;1muptime^[[0m
+DevOps-Course-first-job	Show uptime	2026-10-27T06:43:02.4095602Z shell: /usr/bin/bash -e {0}
+DevOps-Course-first-job	Show uptime	2026-10-27T06:43:02.4096139Z ##[endgroup]
+DevOps-Course-first-job	Show uptime	2026-10-27T06:43:02.4280799Z  06:43:02 up 1 min,  0 user,  load average: 1.26, 0.63, 0.24
+DevOps-Course-first-job	Show current directory	﻿2026-10-27T06:43:02.4324815Z ##[group]Run pwd
+DevOps-Course-first-job	Show current directory	2026-10-27T06:43:02.4325312Z ^[[36;1mpwd^[[0m
+DevOps-Course-first-job	Show current directory	2026-10-27T06:43:02.4381065Z shell: /usr/bin/bash -e {0}
+DevOps-Course-first-job	Show current directory	2026-10-27T06:43:02.4381596Z ##[endgroup]
+DevOps-Course-first-job	Show current directory	2026-10-27T06:43:02.4459770Z /home/runner/work/devops-lab06-ansible-roles-ci/devops-lab06-ansible-roles-ci
+DevOps-Course-first-job	Show current user	﻿2026-10-27T06:43:02.4499782Z ##[group]Run whoami
+DevOps-Course-first-job	Show current user	2026-10-27T06:43:02.4500292Z ^[[36;1mwhoami^[[0m
+DevOps-Course-first-job	Show current user	2026-10-27T06:43:02.4556042Z shell: /usr/bin/bash -e {0}
+DevOps-Course-first-job	Show current user	2026-10-27T06:43:02.4556573Z ##[endgroup]
+DevOps-Course-first-job	Show current user	2026-10-27T06:43:02.4646827Z runner
+DevOps-Course-first-job	Complete job	﻿2026-10-27T06:43:02.4736475Z Cleaning up orphan processes
