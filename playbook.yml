@@ -1,0 +1,16 @@
+---
+- name: Install nginx with Virtual Hosts
+  hosts: webservers
+  remote_user: runner
+  become: true
+  become_method: sudo
+  gather_facts: false
+
+  vars:
+    sites:
+      - site1.lab6.local
+      - site2.lab6.local
+      - site3.lab6.local
+
+  roles:
+    - nginx-vhosts
